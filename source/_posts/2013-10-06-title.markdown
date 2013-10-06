@@ -1,0 +1,7 @@
+---
+layout: post
+title: "title"
+date: 2013-10-06 09:57
+comments: true
+categories: 
+---

@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://wyborne.github.io/atom.xml" rel="self"/>
   <link href="http://wyborne.github.io/"/>
-  <updated>2013-10-06T10:22:13-04:00</updated>
+  <updated>2013-10-06T11:20:56-04:00</updated>
   <id>http://wyborne.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,30 +18,31 @@
     <link href="http://wyborne.github.io/blog/2013/10/06/first-page/"/>
     <updated>2013-10-06T10:09:00-04:00</updated>
     <id>http://wyborne.github.io/blog/2013/10/06/first-page</id>
-    <content type="html"><![CDATA[<h1>this is my first blog &hellip;</h1>
+    <content type="html"><![CDATA[<h1 id="this-is-my-first-blog-">this is my first blog …</h1>
 
-<p>the contents here &hellip;</p>
+<p>the contents here …</p>
 
 <p>Blogging Basics</p>
 
 <p>Jul 19th, 2011</p>
 
-<p>Octopress offers some rake tasks to create post and pages preloaded with metadata and according to Jekyll&rsquo;s naming conventions. It also generates a global and a category based feed for your posts (You can find them in atom.xml and blog/categories/<category>/atom.xml).
-Blog Posts</p>
+<p>Octopress offers some rake tasks to create post and pages preloaded with metadata and according to Jekyll’s naming conventions. It also generates a global and a category based feed for your posts (You can find them in atom.xml and blog/categories/<category>/atom.xml).
+Blog Posts</category></p>
 
 <!-- more -->
 
-
-<p>Blog posts must be stored in the source/_posts directory and named according to Jekyll&rsquo;s naming conventions: YYYY-MM-DD-post-title.markdown. The name of the file will be used as the url slug, and the date helps with file distinction and determines the sorting order for post loops.</p>
+<p>Blog posts must be stored in the source/_posts directory and named according to Jekyll’s naming conventions: YYYY-MM-DD-post-title.markdown. The name of the file will be used as the url slug, and the date helps with file distinction and determines the sorting order for post loops.</p>
 
 <p>Octopress provides a rake task to create new blog posts with the right naming conventions, with sensible yaml metadata.
 Syntax</p>
 
-<p>rake new_post[&ldquo;title&rdquo;]</p>
+<p>rake new_post[“title”]</p>
 
 <p>new_post expects a naturally</p>
 
 <p>中文测试</p>
+
+<script type="math/tex; mode=display"> h(x) = \sum_{i=0}^{n}{\theta_i x_i} = \theta^T x </script>
 ]]></content>
   </entry>
   

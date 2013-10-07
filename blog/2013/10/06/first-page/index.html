@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="this is my first blog &hellip; the contents here &hellip; Blogging Basics Jul 19th, 2011 Octopress offers some rake tasks to create post and pages &hellip;">
+  <meta name="description" content="this is my first blog … the contents here … Blogging Basics Jul 19th, 2011 Octopress offers some rake tasks to create post and pages preloaded with &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,6 +30,37 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
   
 
 </head>
@@ -91,30 +122,31 @@
   </header>
 
 
-<div class="entry-content"><h1>this is my first blog &hellip;</h1>
+<div class="entry-content"><h1 id="this-is-my-first-blog-">this is my first blog …</h1>
 
-<p>the contents here &hellip;</p>
+<p>the contents here …</p>
 
 <p>Blogging Basics</p>
 
 <p>Jul 19th, 2011</p>
 
-<p>Octopress offers some rake tasks to create post and pages preloaded with metadata and according to Jekyll&rsquo;s naming conventions. It also generates a global and a category based feed for your posts (You can find them in atom.xml and blog/categories/<category>/atom.xml).
-Blog Posts</p>
+<p>Octopress offers some rake tasks to create post and pages preloaded with metadata and according to Jekyll’s naming conventions. It also generates a global and a category based feed for your posts (You can find them in atom.xml and blog/categories/<category>/atom.xml).
+Blog Posts</category></p>
 
 <!-- more -->
 
-
-<p>Blog posts must be stored in the source/_posts directory and named according to Jekyll&rsquo;s naming conventions: YYYY-MM-DD-post-title.markdown. The name of the file will be used as the url slug, and the date helps with file distinction and determines the sorting order for post loops.</p>
+<p>Blog posts must be stored in the source/_posts directory and named according to Jekyll’s naming conventions: YYYY-MM-DD-post-title.markdown. The name of the file will be used as the url slug, and the date helps with file distinction and determines the sorting order for post loops.</p>
 
 <p>Octopress provides a rake task to create new blog posts with the right naming conventions, with sensible yaml metadata.
 Syntax</p>
 
-<p>rake new_post[&ldquo;title&rdquo;]</p>
+<p>rake new_post[“title”]</p>
 
 <p>new_post expects a naturally</p>
 
 <p>中文测试</p>
+
+<script type="math/tex; mode=display"> h(x) = \sum_{i=0}^{n}{\theta_i x_i} = \theta^T x </script>
 </div>
 
 
